@@ -34,15 +34,13 @@ Here is an example of the game:
 
 ### Tasks
 
-The aim is to develop an interactive version of the game which the
-candidate and interviewer can play together.
+The aim is to implement the game logic for a two-player version of Connect 4.
 
-A simple, text-based, representation of the grid is encouraged to
-start with. For example, you might use `.` (or ⚫️) for empty slots, and `x` (or 🔴)
+A simple, text-based, representation of the grid is encouraged. For example, you might use `.` (or ⚫️) for empty slots, and `x` (or 🔴)
 and `o` (or 🔵) for pieces of the two players. Players can input their turns
 via the REPL.
 
-The focus of the exercise is to create the game logic, not the user interface. Therefore, the interface can be a simple console logs (hard-coded or not)
+There is no need to create a graphical user interface.
 
 A minimal version of the game should support:
 
